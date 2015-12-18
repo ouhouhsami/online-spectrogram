@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="index_fichiers/spectrogram-visualization.js"></script>
+	<script type="text/javascript" src="index_fichiers/stft.js"></script>
+	<script type="text/javascript" src="index_fichiers/windows.js"></script>
+	<style type="text/css">
+	body {
+		background-color: black;
+		color: white;
+		font-family: Georgia;
+		text-align: center;
+	}
+	h1 {
+		font-variant: small-caps;
+	}
+
+	</style>
+</head>
+<body>
+<h1>Online Spectrogram</h1>
+
+<label>Select an audio file</label>
+<input id="input" value="Select an audio file" type="file">
+<progress style="display: none;" id="progress"></progress>
+
+<br>
+<br>
+	<canvas id="spectrogram"></canvas>
+	<script type="text/javascript" src="index_fichiers/app.js"></script>
+
+</body></html>
